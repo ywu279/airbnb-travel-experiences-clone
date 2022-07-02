@@ -43,6 +43,11 @@ section {
   width: 50%;
 }
 
+.cards {
+  display: flex;
+  gap: 18px;
+}
+
 .card {
   width: 30%;
   margin-bottom: 30px;

@@ -1,23 +1,19 @@
-import katieZaferes from "../images/katie-zaferes.png"
-import starIcon from "../images/star.svg"
+import {ReactComponent as StarIcon} from '../images/star.svg'
 
-export default function Card(){
-    
-
+export default function Card(props){
+    console.log(props)
     return(
-        <section>
-            <div className="card">
-                <img src={katieZaferes} alt="" className="card--image"/>
-                {/* <div>SOLD OUT</div> */}
-                <div className="card--stats">
-                    <img src={starIcon} alt="" /> 
-                    <span>5.0</span>
-                    <span className="gray">(6) · </span>
-                    <span className="gray">USA</span> 
-                </div>
-                <p>Life lessons with kaite Zaferes</p>
-                <p><span className="bold">From $136</span> / person</p>
+        <div className="card">
+            <img src={props.img} alt="" className="card--image"/>
+            {/* <div>SOLD OUT</div> */}
+            <div className="card--stats">
+                <StarIcon /> 
+                <span>{props.rating}</span>
+                <span className="gray">({props.review}) · </span>
+                <span className="gray">{props.location}</span> 
             </div>
-        </section>
+            <p>{props.info}</p>
+            <p><span className="bold">From ${props.price}</span> / person</p>
+        </div>      
     )
 }

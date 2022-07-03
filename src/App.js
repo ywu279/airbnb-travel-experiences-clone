@@ -7,7 +7,8 @@ import data from './data'
 
 const cards = data.map((item) => {
   return(
-    <Card 
+    <Card
+      key={item.id} //Each child in the data array should have a unique "key" prop. 
       status={item.status}
       img={item.coverImg}
       rating={item.stats.rating}

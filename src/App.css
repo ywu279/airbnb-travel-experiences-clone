@@ -89,14 +89,16 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-  .card {
+  .hero--text {
     width: 100%;
-    margin-bottom: 30px;
   }
 
   .cards {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+  }
+
+  .card {
+    width: 100%;
   }
 }

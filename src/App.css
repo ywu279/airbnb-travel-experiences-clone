@@ -58,6 +58,15 @@ section {
   border-radius: 9px;
 }
 
+.card--status {
+  position: absolute;
+  margin: 6px;
+  padding: 5px 6px;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
 .card--stats {
   display: flex;
   align-items: center;

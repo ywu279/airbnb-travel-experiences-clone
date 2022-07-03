@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <section className="cards">
         <Card
+          status="SOLD OUT"
           img={katie_zaferes} 
           rating="5.0"
           review="6"
@@ -22,10 +23,11 @@ function App() {
           price="136"
         />
         <Card 
+          status="ONLINE"
           img={wedding_photography} 
           rating="5.0"
           review="30"
-          location="Canada"
+          location="USA"
           info="Learn wedding photography"
           price="125"
         />
@@ -33,7 +35,7 @@ function App() {
           img={mountain_bike} 
           rating="4.8"
           review="2"
-          location="Canada"
+          location="USA"
           info="Group Mountain Biking"
           price="50"
         />

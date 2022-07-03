@@ -61,7 +61,7 @@ section {
   border-radius: 9px;
 }
 
-.card--status {
+.card--badge {
   position: absolute;
   margin: 6px;
   padding: 5px 6px;

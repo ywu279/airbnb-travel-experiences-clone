@@ -11,7 +11,6 @@ export default [
         },
         location: "Online",
         openSpots: 0,
-        status: "SOLD OUT"
     },
     {
         id: 2,
@@ -25,7 +24,6 @@ export default [
         },
         location: "Online",
         openSpots: 27,
-        status: "ONLINE"
     },
     {
         id: 3,
@@ -39,6 +37,5 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
-        status: ""
     }
 ]

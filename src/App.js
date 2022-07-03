@@ -8,14 +8,18 @@ import data from './data'
 const cards = data.map((item) => {
   return(
     <Card
-      key={item.id} //Each child in the data array should have a unique "key" prop. 
-      status={item.status}
-      img={item.coverImg}
-      rating={item.stats.rating}
-      reviewCount={item.stats.reviewCount}
-      location={item.location}
-      title={item.title}
-      price={item.price}
+      key={item.id} //When using map(), each child in the data array should have a unique "key" prop. 
+      // instead of writing bunch of code below, you could simply declare a property called "item" and pass it (as JS object) into Card component
+      // openSpots={item.openSpots}
+      // img={item.coverImg}
+      // rating={item.stats.rating}
+      // reviewCount={item.stats.reviewCount}
+      // location={item.location}
+      // title={item.title}
+      // price={item.price}
+      item={item} 
+      //OR spreading all of the properties of the item as separate props into the Card component
+      //{...item} 
     />
   )
 })

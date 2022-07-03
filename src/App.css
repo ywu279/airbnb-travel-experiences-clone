@@ -51,6 +51,9 @@ section {
 .card {
   width: 30%;
   margin-bottom: 30px;
+  /* if you want none of the items to shrink
+  width: 175px;
+  flex: 0 0 auto; */
 }
 
 .card--image {
@@ -76,10 +79,24 @@ section {
 
 .card > p{
   margin: 0 0 8px 0;
+  overflow: hidden;  /* the overflow part of the content will be invisible*/
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1290px)  {
   section {
     padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
   }
 }

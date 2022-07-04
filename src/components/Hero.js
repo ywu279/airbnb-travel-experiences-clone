@@ -1,3 +1,4 @@
+import React from 'react';
 import photoGrid from "../images/photo-grid.png"
 
 export default function Hero(){

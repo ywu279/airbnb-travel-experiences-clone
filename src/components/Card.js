@@ -1,3 +1,4 @@
+import React from 'react';
 import {ReactComponent as StarIcon} from '../images/star.svg'
 
 export default function Card(props){

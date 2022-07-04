@@ -1,3 +1,4 @@
+import React from 'react';
 import EarthIcon from "../images/earth.png"
 
 export default function Banner(){

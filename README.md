@@ -6,15 +6,6 @@ Build a single-page responsive online travel activities & experiences website wi
 - React.js - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 - Visual Studio Code
 
-## Get Started
-- Download [Node.js](https://nodejs.org/en/) (v14.0 and above) and npm (v5.6 and above). Check the version in terminal:
-    ```
-    node -v
-    npm -v 
-    ```
-
-- If you directly open index.html, you'll see an empty page. Instead, right-click the project > Open in Terminal > `npm start`
-
 ## Objectives
 - Passing `props` (properties treated as JavaScript Object) to a custom React `Component`/ function
 - `array.map()` - convert an array of raw data into an array of `JSX elements` that can be displayed on screen
@@ -30,6 +21,15 @@ Build a single-page responsive online travel activities & experiences website wi
 <img src="https://user-images.githubusercontent.com/58931129/177066657-b4902ceb-f4e5-485e-8ab9-1d4edae51bbf.png" width="200px">
 <img src="https://user-images.githubusercontent.com/58931129/177066658-5f992f2e-55f8-4b9f-9217-c7a3482b412d.png" width="200px">
 </div>
+
+## Notice
+- Download [Node.js](https://nodejs.org/en/) (v14.0 and above) and npm (v5.6 and above). Check the version in terminal:
+    ```
+    node -v
+    npm -v 
+    ```
+
+- If you directly open index.html, you'll see an empty page. Instead, right-click the project > Open in Terminal > `npm start`
 
 ## Resources
 - [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)

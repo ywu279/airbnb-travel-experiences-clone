@@ -19,11 +19,16 @@ Build a single-page responsive online travel activities & experiences website us
 - `array.map()` - convert an array of raw data into an array of `JSX elements` that can be displayed on screen
 
 ## Features
-### Online Experiences
-<img src="" width="400px">
+### Desktop Version
+<div align="center">
+<img src="https://user-images.githubusercontent.com/58931129/177065719-9fd6e5f4-081a-4392-bb16-53b6f4774e03.png" width="700px">
+</div>
 
-### Travel Journal
-<img src="" width="400px">
+### Mobile Version
+<div align="center">
+<img src="https://user-images.githubusercontent.com/58931129/177066657-b4902ceb-f4e5-485e-8ab9-1d4edae51bbf.png" width="200px">
+<img src="https://user-images.githubusercontent.com/58931129/177066658-5f992f2e-55f8-4b9f-9217-c7a3482b412d.png" width="200px">
+</div>
 
 ## Resources
 - [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)

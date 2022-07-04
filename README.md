@@ -28,7 +28,6 @@ Build a single-page responsive online travel activities & experiences website wi
     node -v
     npm -v 
     ```
-
 - If you directly open index.html, you'll see an empty page. Instead, right-click the project > Open in Terminal > `npm start`
 
 ## Resources

@@ -20,11 +20,13 @@ Build a single-page responsive online travel activities & experiences website us
 
 ## Features
 ### Desktop Version
-<img src="https://user-images.githubusercontent.com/58931129/177065719-9fd6e5f4-081a-4392-bb16-53b6f4774e03.png" width="500px">
+<img src="https://user-images.githubusercontent.com/58931129/177065719-9fd6e5f4-081a-4392-bb16-53b6f4774e03.png" width="700px" style="aligh-self:center;">
 
 ### Mobile Version
-<img src="https://user-images.githubusercontent.com/58931129/177066657-b4902ceb-f4e5-485e-8ab9-1d4edae51bbf.png" width="100px">
-<img src="https://user-images.githubusercontent.com/58931129/177066658-5f992f2e-55f8-4b9f-9217-c7a3482b412d.png" width="100px">
+<div style="display:flex; justify-content:center; align-items:flex-start;">
+<img src="https://user-images.githubusercontent.com/58931129/177066657-b4902ceb-f4e5-485e-8ab9-1d4edae51bbf.png" width="200px">
+<img src="https://user-images.githubusercontent.com/58931129/177066658-5f992f2e-55f8-4b9f-9217-c7a3482b412d.png" width="200px">
+</div>
 
 ## Resources
 - [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)

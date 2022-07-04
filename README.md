@@ -1,5 +1,6 @@
 # React - AirBnb Travel Experiences Clone
-Build a single-page responsive online travel activities & experiences website using **React.js**
+Build a single-page responsive online travel activities & experiences website with **React.js**
+<br><h3>[View Live Demo](https://airbnb-travel-experiences-clone.netlify.app/)</h3>
 
 ## Built with
 - React.js - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)

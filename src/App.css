@@ -82,6 +82,66 @@ section {
   overflow: hidden;  /* the overflow part of the content will be invisible*/
 }
 
+.banner {
+  background-color: #F55A5A;
+  color: white;
+  padding-block: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.EarthIcon {
+  width: 24px;
+}
+
+.journals {
+  display: flex;
+  flex-direction: column;
+  margin-block: 50px;
+  
+}
+
+.journal {
+  display: flex;
+  gap: 19px;
+  padding-block: 18px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.journal--img {
+  width: 25%;
+  border-radius: 5px;
+}
+
+.journal--info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.journal--info > p {
+  letter-spacing: 0.17em;
+  margin: 0;
+}
+
+.LocationIcon {
+  padding-right: 4px;
+}
+
+.journal--info > a {
+  color: #918E9B;
+  text-decoration-line: underline;
+}
+
+.journal--title {
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+
 @media screen and (max-width: 1290px)  {
   section {
     padding: 0 30px;
@@ -99,6 +159,15 @@ section {
   }
 
   .card {
+    width: 100%;
+  }
+
+  .journal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .journal--img {
     width: 100%;
   }
 }

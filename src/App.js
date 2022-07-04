@@ -1,8 +1,12 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Banner from './components/Banner'
 import Card from './components/Card'
 import data from './data'
+import Journal from './components/Journal'
+import data_journal from './data_journal'
+
 
 
 const cards = data.map((item) => {
@@ -18,11 +22,21 @@ const cards = data.map((item) => {
       // title={item.title}
       // price={item.price}
       item={item} 
-      //OR spreading all of the properties of the item as separate props into the Card component
+      //OR use "Spread in object literals" method - spreading all of the properties of the item as separate props into the Card component
       //{...item} 
     />
   )
 })
+
+const journals = data_journal.map((item) => {
+  return(
+    <Journal 
+      key={item.title} //title as the unique key
+      item={item}
+    />
+  )
+})
+//console.log(journals)
 
 function App() {
   return (
@@ -31,6 +45,10 @@ function App() {
       <Hero />
       <section className="cards">
         {cards}
+      </section>
+      <Banner />
+      <section className="journals">
+        {journals}
       </section>
     </div>
   );

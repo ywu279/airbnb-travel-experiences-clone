@@ -18,14 +18,14 @@ export default function Card(props){
             {/* <div className="card--badge" style={{display: props.openSpots === 0 ? "block" : "none"}}>SOLD OUT</div> */}
 
             {badgeText && <div className="card--badge">{badgeText}</div>} 
-            <img src={`./images/${props.item.coverImg}`} alt="" className="card--image"/>
+            <img src={`./imagesdata/${props.item.coverImg}`} alt="" className="card--image"/>
             <div className="card--stats">
                 <StarIcon /> 
                 <span>{props.item.stats.rating}</span>
                 <span className="gray">({props.item.stats.reviewCount}) · </span>
                 <span className="gray">{props.item.location}</span> 
             </div>
-            <p>{props.title}</p>
+            <p>{props.item.title}</p>
             <p><span className="bold">From ${props.item.price}</span> / person</p>
         </div>      
     )
